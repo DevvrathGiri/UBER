@@ -10,7 +10,7 @@ connectToDB();
 app.use(cors());
  
 app.get('/',(req,res)=>{
-    res.send('Hwllo world');
+    res.send('Hello world');
 });
 
 module.exports=app;
